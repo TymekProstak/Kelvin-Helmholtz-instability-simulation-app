@@ -245,15 +245,6 @@ RK4 is the recommended default method.
 
 ## Automatically Computed Parameters
 
-The MATLAB app follows the logic of the original C++ code.
-
-Therefore, the user should not directly set:
-
-- initial number of vortex points `N`,
-- time step `dt`.
-
-These quantities are computed automatically.
-
 The target distance between neighboring points is:
 
 ```math
@@ -292,8 +283,6 @@ N_{steps}
 ```
 
 where `T` is the selected simulation time.
-
-The app can display `N`, `Delta l`, `dt`, and `Nsteps`, but they should be treated as read-only derived values.
 
 ---
 
