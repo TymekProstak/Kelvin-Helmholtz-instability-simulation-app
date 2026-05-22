@@ -23,7 +23,7 @@ The app provides:
 - choice of initial perturbation: sinusoidal or random,
 - automatic computation of the time step and initial discretization,
 - export of results to a MATLAB `.mat` file,
-- optional export of the animation to a video file.
+- export of the animation to a video file.
 
 ---
 
