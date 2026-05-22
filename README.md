@@ -207,9 +207,6 @@ The app allows two integration methods.
 ```math
 X_{n+1} = X_n + \Delta t f(X_n)
 ```
-
-Euler is simple and fast, but less accurate.
-
 ### Fourth-Order Runge-Kutta Method
 
 ```math
