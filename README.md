@@ -335,10 +335,7 @@ y_{new} = \frac{y_i+y_{i-1}}{2}
 ---
 
 ##  Repository Structure
-
-
 ```text
-.
 ├── simulation_app.mlapp
 ├── README.md
 ├── .gitignore
@@ -360,7 +357,8 @@ y_{new} = \frac{y_i+y_{i-1}}{2}
 │       ├── simulationStep.m
 │       └── updateResultsPlot.m
 ├── results_and_figures/
----
+```
+
 
 ## Bibliography
 
