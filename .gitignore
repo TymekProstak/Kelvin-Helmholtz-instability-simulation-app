@@ -1,69 +1,81 @@
-# Prerequisites
-*.d
+# ============================================================
+# MATLAB temporary / autosave files
+# ============================================================
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
+*.asv
+*.m~
+*.mlx~
+*.slx~
 *.bak
+*.tmp
+
+
+# ============================================================
+# MATLAB generated folders
+# ============================================================
+
+slprj/
+sccprj/
+codegen/
+mex/
+html/
+latex/
+report/
+
+
+# ============================================================
+# MATLAB cache / preferences / local metadata
+# ============================================================
+
+.matlab/
+*.mltbx
+*.log
+
+
+# ============================================================
+# App Designer / generated backups
+# ============================================================
+
+*.mlappinstall
+*.mlapp~
+
+
+# ============================================================
+# Simulation outputs
+# ============================================================
+
+results/
+figures/
+videos/
+exports/
+output/
+outputs/
+
+
+# ============================================================
+# Saved simulation data
+# ============================================================
+
+*.mat
+*.mp4
+*.avi
+*.gif
+
+
+# ============================================================
+# OS files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# Editor / IDE files
+# ============================================================
+
+.vscode/
+.idea/
 *.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+*.swo
