@@ -336,27 +336,30 @@ y_{new} = \frac{y_i+y_{i-1}}{2}
 
 ##  Repository Structure
 
+
 ```text
 .
-├── KelvinHelmholtzApp.mlapp
+├── simulation_app.mlapp
 ├── README.md
+├── .gitignore
 ├── src/
-│   ├── makeDefaultParams.m
-│   ├── computeDerivedParams.m
-│   ├── initializeVortexSheet.m
-│   ├── computeTotalCirculation.m
-│   ├── inducedVx.m
-│   ├── inducedVy.m
-│   ├── computeVelocity.m
-│   ├── eulerStep.m
-│   ├── rk4Step.m
-│   ├── simulationStep.m
-│   ├── rediscretizeSheet.m
-│   └── saveResultsMat.m
-├── results/
-└── figures/
-```
-
+│   └── +kh/
+│       ├── appendLog.m
+│       ├── appToParams.m
+│       ├── computeDerivedParams.m
+│       ├── computeVelocity.m
+│       ├── eulerStep.m
+│       ├── inducedVx.m
+│       ├── inducedVy.m
+│       ├── initializeVortexSheet.m
+│       ├── logSimulationStart.m
+│       ├── makeDefaultParams.m
+│       ├── paramsToApp.m
+│       ├── rediscretizeSheet.m
+│       ├── rk4Step.m
+│       ├── simulationStep.m
+│       └── updateResultsPlot.m
+├── results_and_figures/
 ---
 
 ## Bibliography
